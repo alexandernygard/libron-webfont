@@ -1,0 +1,20 @@
+{
+  "name": "@alexandernygard/libron",
+  "version": "0.31.0",
+  "description": "Libron webfont (WOFF2 + CSS), packaged from nicoverbruggen/libron",
+  "style": "libron.css",
+  "main": "libron.css",
+  "files": ["fonts", "libron.css", "LICENSE", "COPYRIGHT"],
+  "exports": {
+    ".": "./libron.css",
+    "./libron.css": "./libron.css",
+    "./fonts/*": "./fonts/*"
+  },
+  "license": "OFL-1.1",
+  "keywords": ["font", "webfont", "woff2", "libron", "serif", "reading"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandernygard/libron-webfont.git"
+  },
+  "homepage": "https://github.com/alexandernygard/libron-webfont#readme"
+}
